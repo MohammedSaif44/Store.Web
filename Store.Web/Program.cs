@@ -40,7 +40,7 @@ namespace Store.Web
 			}
 
 			app.UseHttpsRedirection();
-
+			
 			app.UseAuthorization();
 			await ApllySeeding.ApllySeedingAsync(app);
 			
